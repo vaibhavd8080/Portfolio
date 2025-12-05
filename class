@@ -1,0 +1,13 @@
+class phone:
+  def __init__(self, brand, model, price):
+    self.brand = brand
+    self.model = model
+    self.price = price
+
+  def buy(self):
+    print("buying a phone")
+
+class smartphone(phone):
+  pass
+
+s = smartphone("iphone", 16, 1000000)
